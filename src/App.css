@@ -82,3 +82,54 @@ body {
   color: #CCC;
   text-transform: uppercase;
 }
+
+/* media queries */
+@media screen and (max-width: 350px) {
+  #root {
+    margin: 2rem auto;
+  }
+  .container { 
+    flex-direction: column;
+    height: 780px;
+    width: 380px;
+  }
+  .card__left {
+    width: 327px;
+    justify-content: center;
+    alignItems: center;
+    order: 2;
+    padding: 2rem;
+  }
+  .card__leftTitle {
+    font-size: 28px;
+    /* max-width: 294px; */
+    text-align: center;
+  }
+  .card__leftParagraph {
+    font-size: 15px;
+    max-width: 264px;
+    text-align: center;
+    justify-content: center;
+  }
+  .card__statsWrapper {
+    flex-direction: column;
+    justify-content: center;
+    alignItems: center;
+  }
+  .card__stat {
+    justify-content: center;
+    alignItems: center;
+    text-align: center;
+  }
+  .card__right {
+    order: 1;
+    width: 100%;
+    height: 100%;
+  }
+  .card__rightImage {
+    object-fit: cover;
+    height: auto;
+    width: 250px;
+    border-radius: 10px 10px 0 0;
+  }
+}
