@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body {
+  background-color: #0A0C1C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+}
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 1110px;
+  height: 446px;
+}
+.card__left {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #1B1937;
+  padding-left: 5.5rem;
+  padding-top: 1.7rem;
+  border-radius: 10px 0 0 10px;
+}
+.card__leftTitle {
+  font-size: 36px;
+  max-width: 403px;
+  font-weight: bold;
+  color: white;
+  font-family: Inter
+}
+.card__leftTitleSpan {
+  display: inline-flex;
+  color: #AB5CDB;
+}
+.card__leftParagraph {
+  font-size: 15px;
+  max-width: 354px;
+  color: white;
+  font-family: Inter;
+  line-height: 1.4;
+}
+.card__right { 
+  width: 50%;
+  height: 446px;
+  border-radius: 0 10px 10px 0;
+}
+.card__rightImage {
+  border-radius: 0 10px 10px 0;
+}
+
+.card__stat {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 3rem; */
+}
+.card__statsWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  justify-content: space-between;
+}
+.card__statTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  font-family: Inter;
+  margin-bottom: 0.5rem;
+}
+.card__statSubtitle {
+  margin-top: 0rem;
+  font-size: 12px;
+  font-family: Lexend Deca;
+  color: #CCC;
+  text-transform: uppercase;
+}
