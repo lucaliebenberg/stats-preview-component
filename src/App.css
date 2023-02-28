@@ -149,4 +149,9 @@ body {
     width: 335px;
     border-radius: 10px 10px 0 0;
   }
+  .card__rightOverlay {
+    height: 277px;
+    width: 335px;
+    border-radius: 10px 10px 0 0;
+  }
 }
