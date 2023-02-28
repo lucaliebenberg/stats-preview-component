@@ -49,11 +49,20 @@ body {
   line-height: 1.4;
 }
 .card__right { 
+  position: relative;
   width: 50%;
   height: 446px;
   border-radius: 0 10px 10px 0;
 }
 .card__rightImage {
+  border-radius: 0 10px 10px 0;
+}
+.card__rightOverlay {
+  background-color: #AB5CDB;
+  position: absolute;
+  opacity: 0.7;
+  height: 446px;
+  width: 100%;
   border-radius: 0 10px 10px 0;
 }
 

@@ -36,6 +36,7 @@ const App = () => {
           </div>
         </div>
         <div className="card__right">
+          <div className="card__rightOverlay"></div>
           <img
             src={HeaderDesktop}
             alt="desktop image"
